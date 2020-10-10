@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <body>
+    <h1 class="h1">Tic Tac Toe</h1>
+    <div class="container">
+      <div class="game-board">
+        <div class="row">
+          <div name="background" class="cell" hover="X"></div>
+          <div name="background" class="cell" hover="X"></div>
+          <div name="background" class="cell" hover="X"></div>
+        </div>
+        <div class="row">
+          <div name="background" class="cell" hover="X"></div>
+          <div name="background" class="cell" hover="X"></div>
+          <div name="background" class="cell" hover="X"></div>
+        </div>
+        <div class="row">
+          <div name="background" class="cell last-row" hover="X"></div>
+          <div name="background" class="cell last-row" hover="X"></div>
+          <div name="background" class="cell last-row" hover="X"></div>
+        </div>
+      </div>
+
+      <div id="message" class="game-message">
+        <button id="restart">Restart 😜</button>
+        <p
+          id="winner"
+          class="animate__animated animate__heartBeat animate__infinite"
+        >
+          X won!!！
+        </p>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
